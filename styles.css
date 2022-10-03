@@ -1,5 +1,44 @@
 
-body {
-    background-color: blue;
-color: white;
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('NeueHaasDisplay-Roman.woff2') format('woff2'),
+    url('NeueHaasDisplay-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
 }
+
+body {
+    background-color: white;
+    height: 100%;
+    margin: 5pt;
+    position: fixed;
+    }
+
+   article{
+    width: 80%;
+    height: auto;
+   }
+
+   #one{
+    font-family: 'Neue Haas Grotesk Display Pro';
+    color: black;
+    font-size: 20pt;
+    }
+
+    sup{
+    font-size: 10pt;
+    }
+
+    i{
+    color: blue;
+    }
+
+    #two{font-family: 'Neue Haas Grotesk Display Pro';
+        color: black;
+        font-size: 10pt;
+    }
+
+    #notes{
+        position: fixed;
+        bottom: 0;
+    }
