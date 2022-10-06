@@ -1,0 +1,71 @@
+
+@font-face {
+    font-family: 'Neue Haas Grotesk Display Pro';
+    src: url('NeueHaasDisplay-Roman.woff2') format('woff2'),
+    url('NeueHaasDisplay-Roman.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+
+
+
+body {
+    background-color: blue;
+    height: 100%;
+    width: 100%;
+    cursor:wait;
+    position: fixed;
+    vertical-align: middle;
+    text-align: center;
+    margin-top: 25%;
+    margin-bottom: 25%;
+    }
+
+    
+        
+        
+    
+  #one{
+    color: aliceblue;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 20pt;
+    margin: 0;
+   
+    
+  } 
+
+ 
+  #two{
+    color: white;
+    font-family: 'Neue Haas Grotesk Display Pro';
+    font-size: 20pt;
+    margin-left: 10%;
+    margin-right: 10%;
+    margin: 0;
+    text-decoration: none;
+    border-bottom: 1px solid currentColor;
+    
+  } 
+  
+  #two:hover{
+    opacity: 0.5;
+    color: white;
+    text-decoration: none;
+    
+  } 
+ 
+  #two:visited{
+    color: white;
+    text-decoration: none;
+  }
+
+  #two:active{
+    color: white;
+    text-decoration: none;
+
+  }
+
+  a{
+    color: white;
+    text-decoration: none;
+  }
