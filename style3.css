@@ -23,7 +23,9 @@
     font-style: normal;
 }
 
-
+html{
+    cursor: wait;
+}
 body {
     display: flex;
     height: 100%;
