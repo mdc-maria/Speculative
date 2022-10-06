@@ -7,7 +7,9 @@
     font-style: normal;
 }
 
-
+html{
+  cursor:wait;
+}
 
 body {
     background-color: blue;
