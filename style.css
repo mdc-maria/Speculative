@@ -20,24 +20,28 @@ body {
     flex-direction: column;
    cursor:wait;
     margin: 0;
+    overflow: hidden;
     text-align: left;
     }
 
   article{
   height: 100%;
   width: 50%;
-float: inline-start;
+  position: relative;
   margin-left: 25%;
-  box-sizing: border-box;
-  padding-top: 20%;
-  vertical-align: middle;
   margin-right: 25%;
-  position:static;
+ 
+
 
 }
 
     p{font-family: 'Neue Haas Grotesk Display Pro';
       font-size: 25pt;
+     
+      position: absolute;               
+      top: 40%;                         
+      transform: translate(0, -40%) 
+     
     }
         
       
