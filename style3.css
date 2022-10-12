@@ -33,11 +33,6 @@ body {
     flex-direction: column;
     cursor: wait;
     position: relative;
-    width: 50%;
-    margin-left: 25%;
-    margin-right: 25%;
-    background-color: white;
-    
     }
 
 
@@ -46,13 +41,11 @@ body {
     height: auto;
     background-color: white;
     text-align: left;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     box-sizing: border-box;
-   
-    
-   
-    
-    
-    }
+}
     
 #one {
     color: #000000;
@@ -76,14 +69,16 @@ body {
 
  
  footer{
-    width: 90%;
+    width: 50%;
+    margin-left: 25%;
+    margin-right: 25%;
     height: auto;
     display: flex;
     bottom: 0;
     flex-direction: column;
     text-align:left;
     overflow: scroll;
-    margin-top: 12%;
+    margin-top: 5%;
     background-color: white;
     
    
