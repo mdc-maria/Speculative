@@ -45,7 +45,9 @@ body {
     
     height: auto;
     background-color: white;
-    text-align:left;
+    text-align: left;
+    box-sizing: border-box;
+   
     
    
     
@@ -55,7 +57,8 @@ body {
 #one {
     color: #000000;
     font-family: 'NeueHaas';
-    font-size: 28pt;
+    font-size: 29pt;
+    line-height: 120%;
     
    
     }
